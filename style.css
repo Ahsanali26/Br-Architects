@@ -1,0 +1,176 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Montserrat;
+	box-sizing: inherit;
+}
+
+.navbar{
+	width: 100%;
+	height: 45px;
+	background-color: #FFF;
+	box-shadow: 1px 0px 5px #000;
+	padding-top: 10px;
+	overflow: hidden;
+	position: fixed;
+	z-index: 1;
+
+}
+
+.navbar a {
+  float: left;
+  padding: 7px 24px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  color: #000;
+
+}
+
+.left{
+	float: left;
+	padding-left: 20px;
+	letter-spacing: 3px;
+}
+
+.left:hover{
+	background-color: #CCCCCC;
+}
+
+.right{
+	float: right;
+	letter-spacing: 3px;
+}
+
+.pro:hover{
+	background-color: #CCCCCC;
+}
+
+.abo:hover{
+	background-color: #CCCCCC;
+}
+
+.con:hover{
+	background-color: #CCCCCC;
+}
+
+.header{
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+.br{
+
+	top: 55%;
+    left: 40%;
+    position: absolute;
+    color: #FFF;
+    opacity: 0.8;
+    font-size: 35px;
+    background-color: #000;
+    padding: 10px; 
+}
+
+.archi{
+
+	top: 57%;
+    left: 47%;
+    position: absolute;
+    color: #FFF;
+    opacity: 0.9;
+    font-size: 38px;
+    font-family: Arial;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+.container{
+	padding: 10px;
+	width: 96%;
+}
+
+.project{
+	width: 96%;
+	padding: 40px;
+	font-size: 26px;
+}
+
+.line{
+	margin-top: 10px;
+	opacity: 0.4;
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.roww{
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.summer{
+	width: 24%;
+	margin-left: 40px;
+
+}
+
+.brick{
+	width: 24%;
+	margin-left: 20px;
+}
+
+.renovated{
+	width: 24%;
+	margin-left: 20px;
+}
+
+.barn{
+	width: 24%;
+	margin-left: 20px;
+}
+
+.sub{
+	margin-top: 20px;
+}
+
+.sup{
+	margin-top: 20px;
+	color: #AAAAAA;
+}
+
+.btn{
+	width: 100%;
+	height: 40px;
+	border: 0px;
+	margin-top: 20px;
+	border-radius: 1px;
+
+}
+
+.btn:hover{
+	background-color: #AAAAAA;
+}
+
+.form{
+	width: 100%;
+	margin-left: 40px;
+}
+
+.send{
+	width: 15%; 
+	height: 40px; 
+	background-color: #000; 
+	color: #FFF; 
+	border: none;
+	margin-bottom: 20px;
+}
+
+.send:hover{
+	background-color: #AAA;
+	color: #000;
+}
